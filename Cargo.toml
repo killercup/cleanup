@@ -1,0 +1,9 @@
+[package]
+name = "cleanup"
+version = "0.1.0"
+authors = ["Pascal Hertleif <killercup@gmail.com>"]
+
+[dependencies]
+structopt = "0.2.11"
+output = { git = "https://github.com/killercup/output-rs" }
+quicli = "0.3.1"
